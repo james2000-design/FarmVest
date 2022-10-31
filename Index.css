@@ -111,6 +111,7 @@ body{
 
   .save{
     height: 100%;
+    width: 100% !important;
   }
   .carousel-item{
     height: 100%;
@@ -119,6 +120,9 @@ body{
   .inner{
     width: 60% !important;
     left: 20% !important;
+  }
+  .fall{
+    height: 100%;
   }
 }
 .tapp{
@@ -368,6 +372,9 @@ body{
   @media (max-width:425px) {
     .topper:after{
       width: 50%;
+    }
+    .login{
+      display: none;
     }
   }
 
